@@ -25,6 +25,7 @@ export const skillCategories: SkillCategory[] = [
       { name: 'Zustand' },
       { name: 'Tailwind CSS' },
       { name: 'Bootstrap' },
+      { name: 'Styled Components' },
     ],
   },
   {
@@ -42,6 +43,7 @@ export const skillCategories: SkillCategory[] = [
       { name: 'Serverless' },
       { name: 'AWS' },
       { name: 'Google Cloud' },
+      { name: 'Vercel' },
     ],
   },
   {
@@ -64,6 +66,17 @@ export const skillCategories: SkillCategory[] = [
       { name: 'Microservices' },
       { name: 'Pair Programming' },
       { name: 'Code Reviews' },
+    ],
+  },
+  {
+    category: 'AI-Assisted Development',
+    icon: 'Sparkles',
+    description: 'AI tools & copilots',
+    skills: [
+      { name: 'Claude Code' },
+      { name: 'Cursor' },
+      { name: 'GitHub Copilot' },
+      { name: 'OpenAI Codex' },
     ],
   },
 ];

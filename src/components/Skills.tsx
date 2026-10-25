@@ -1,7 +1,7 @@
 'use client';
 
 import { useEffect, useRef } from 'react';
-import { Code2, Layers, Cloud, Database, ShieldCheck } from 'lucide-react';
+import { Code2, Layers, Cloud, Database, ShieldCheck, Sparkles } from 'lucide-react';
 import { skillCategories } from '@/data/skills';
 
 const iconMap: Record<string, React.ReactNode> = {
@@ -10,6 +10,7 @@ const iconMap: Record<string, React.ReactNode> = {
   Cloud: <Cloud size={20} aria-hidden="true" />,
   Database: <Database size={20} aria-hidden="true" />,
   ShieldCheck: <ShieldCheck size={20} aria-hidden="true" />,
+  Sparkles: <Sparkles size={20} aria-hidden="true" />,
 };
 
 export default function Skills() {

@@ -189,7 +189,7 @@ export default function Hero() {
         {/* Actions */}
         <div style={{ display: 'flex', justifyContent: 'center', marginBottom: '2.5rem', animation: 'fadeInUp 0.8s ease 0.3s both' }}>
           <a
-            href="/resume/Abhilash_kumar_resume.pdf"
+            href="/resume/Abhilash_kumar_a.pdf"
             download="Abhilash_Kumar_A_Resume.pdf"
             style={{
               display: 'flex',
